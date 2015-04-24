@@ -1,0 +1,13 @@
+#channel-id    maddress    mport
+
+#channel-id:    the id of a live channel
+#               channel-id must be contained in all the URLs of the channel,
+#               so that we could associate a request with a channel.
+#maddress:      multicast address of the channel
+#mport:         multicast prot of the channel
+
+#note: only blank space is allowed as separator!
+
+#/live/85863/hd-2/1,hd-2_1000K_live.m3u8
+#/live/85863/hd-2/1,hd-2_1000K/251/819.ts
+/live/85863/hd-2/1,hd-2_1000K    1.2.3.4    1234
